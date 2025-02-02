@@ -110,9 +110,6 @@ const ShopContextProvider = (props) => {
         }
     }
 
-    // useEffect(() => {
-    //     console.log(cartItems);
-    // })
     const getCartCount = () => {
         let totalCount = 0;
         for (const items in cartItems) {
