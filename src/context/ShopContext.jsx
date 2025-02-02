@@ -14,7 +14,6 @@ const ShopContextProvider = (props) => {
     const navigate = useNavigate();
     const [products, setProducts] = useState([]);
     const [token, setToken] = useState('');
-
     const getCartAmount = () => {
         let totalAmount = 0;
         for (const items in cartItems) {
@@ -133,7 +132,7 @@ const ShopContextProvider = (props) => {
     const value = {
         products, currency, delivery_fee,
         search, setSearch, showSearch, setShowSearch,
-        cartItems, addToCart,
+        cartItems, addToCart,setCartItems,
         getCartCount, updateQuantity,
         getCartAmount, navigate,
         backendUrl,
