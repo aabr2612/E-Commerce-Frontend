@@ -9,7 +9,6 @@ A modern, React-based frontend for an e-commerce platform, enabling users to bro
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Demo](#demo)
 - [Contributing](#contributing)
 - [Contact](#contact)
 
