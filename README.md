@@ -128,7 +128,7 @@ A modern, React-based frontend for an e-commerce platform, enabling users to bro
     │   └── main.jsx               # Entry point with React DOM
     ├── .env                       # Environment variables (not tracked)
     ├── package.json               # Dependencies and scripts
-    ├── package.lock.json               # Dependencies and scripts
+    ├── package.lock.json          # Locked dependency versions for reproducibility
     ├── vite.config.js             # Vite configuration
     ├── tailwind.config.js         # Tailwind CSS configuration
     ├── eslint.config.js           # ESLint configuration
@@ -140,8 +140,6 @@ A modern, React-based frontend for an e-commerce platform, enabling users to bro
 3. Make your changes and commit (`git commit -m "Add your feature"`).
 4. Push to your branch (`git push origin feature/your-feature`).
 5. Open a Pull Request.
-
-Please follow the ESLint rules and ensure compatibility with the existing tech stack. For bug reports or feature requests, open an issue on the repository.
 
 ## Contact
 
