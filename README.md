@@ -132,6 +132,7 @@ A modern, React-based frontend for an e-commerce platform, enabling users to bro
     ├── tailwind.config.js         # Tailwind CSS configuration
     ├── eslint.config.js           # ESLint configuration
     └── README.md                  # Project documentation
+```
 ## Contributing
 
 1. Fork the repository.
